@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <fieldset>
+        <legend style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" > PERSONAL DETAILS</legend>
+        <label >enter your email</label><br>
+        <input type="text" placeholder="email"><br>
+        <label>enter your name</label><br>
+        <input type="text" placeholder="name"><br>
+        <label>contact number</label><br>
+        <input type="password" placeholder="contact number"><br>
+        <label>gender</label><br>
+        <input type="radio" name="1">male
+        <input type="radio" name="1">female <br>
+        <input type="checkbox" name="1">lagos <br>
+        <input type="checkbox" name="2">boston <br>
+        <input type="checkbox" name="3">atlanta <br>
+        <input type="checkbox" name="4">georgia <br><br>
+        <button style="background-color: blue;">submit</button>
+        </fieldset>
+        <input type="text" name="a">+
+        <input type="text" name="b">=
+        <output name="x" for="a b" ></output>
+    </forms>
+</body>
+</html>
